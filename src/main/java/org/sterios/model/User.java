@@ -1,12 +1,10 @@
-package org.xrave.model;
+package org.sterios.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.*;
 import java.util.Collection;
-import java.util.LinkedHashSet;
 import java.util.Set;
 
 
