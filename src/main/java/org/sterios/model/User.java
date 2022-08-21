@@ -24,7 +24,7 @@ public class User implements UserDetails {
     private byte age;
     @Column
     private String password;
-    @OneToMany(targetEntity = Role.class)
+    @ManyToMany(targetEntity = Role.class)
     private Set<Role> roles;
 
     public User() {
